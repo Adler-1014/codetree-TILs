@@ -1,3 +1,4 @@
 a = float(input())
 b = float(input())
-print(f"{a+b:.2}")
+ans = a+b
+print(f"{ans:.2}")
