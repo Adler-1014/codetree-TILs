@@ -1,10 +1,12 @@
 a = float(input())
 ans = ''
-if a > 1.0:
+if a >= 1.0:
     ans = 'High'
 elif a < 0.5 :
-    ans = 'Middle'
-else:
     ans = 'Low'
+else:
+    ans = 'Middle'
+
+
 
 print(ans)
