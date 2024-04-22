@@ -1,3 +1,3 @@
 n = int(input())
-arr = range(8,0,-1)
+arr = range(n,0,-1)
 print(*arr)
