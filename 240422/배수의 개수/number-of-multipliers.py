@@ -5,6 +5,8 @@ for i in range(10):
     num = int(input())
     if num % 3 == 0:
         cnt_3 += 1
+        if num % 5 == 0:
+            cnt_5 += 1 
     elif num % 5 == 0 :
         cnt_5 += 1
 
