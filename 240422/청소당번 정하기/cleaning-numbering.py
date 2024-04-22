@@ -10,4 +10,4 @@ for i in range(n):
     elif i % 2 == 0:
         cnt_2 += 1
 
-print(cnt_2, cnt_3, cnt_12)
+print(cnt_2-1, cnt_3, cnt_12)
