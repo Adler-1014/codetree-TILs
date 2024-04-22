@@ -1,11 +1,11 @@
 a = int(input())
 
-for i in range(1,a+1):
+for i in range(1, a + 1):
     if i % 2 == 0 and i % 4 == 0:
         continue
-    temp =  i // 8 
+    temp = i // 8
     if temp % 2 == 0:
         continue
-    if i % 7 < 4 :
+    if i % 7 < 4:
         continue
-    print(i,end = " ")
+    print(i, end=" ")
