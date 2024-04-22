@@ -1,5 +1,5 @@
 n = int(input())
 temp = 1 
 while temp <= n:
-    print(*)
+    print('*')
     temp += 1
