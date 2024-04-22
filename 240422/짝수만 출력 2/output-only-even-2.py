@@ -1,5 +1,5 @@
 b,a = map(int,input())
 
-while b <= a:
+while a >= b :
     print(b, end = " ")
     b -= 2
