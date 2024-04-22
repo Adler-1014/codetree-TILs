@@ -1,3 +1,3 @@
 arr = list(map(int,input().split()))
-ans = max(arr) - min(b)
+ans = max(arr) - min(arr)
 print(ans)
