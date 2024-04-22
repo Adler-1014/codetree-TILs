@@ -1,6 +1,6 @@
 n = int(input())
 
 if n == 100:
-    print(pass)
+    print('pass')
 else:
-    print(failure)
+    print('failure')
