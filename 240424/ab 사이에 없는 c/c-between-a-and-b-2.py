@@ -5,6 +5,6 @@ for i in range(a,b+1):
         ans = True
 
 if ans == True:
-    print('No')
+    print('NO')
 else:
     print('YES')
