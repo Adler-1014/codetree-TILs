@@ -11,6 +11,6 @@ for i in range(a,b+1):
         ans = 1
         break
     else:
-        print(0)
+        ans = 0
 
 print(ans)
